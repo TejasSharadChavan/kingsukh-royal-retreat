@@ -31,8 +31,8 @@ const About = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
-          <img src={gardenImg} alt="Lush green garden at Kingsukh Guest House" className="h-64 w-full rounded-xl object-cover shadow-elegant" />
-          <img src={loungeImg} alt="Elegant lounge area with warm lighting" className="h-64 w-full rounded-xl object-cover shadow-elegant mt-8" />
+          <img src="/service.jpg" alt="Lush green garden at Kingsukh Guest House" className="h-64 w-full rounded-xl object-cover shadow-elegant" />
+          <img src="/recep.jpg" alt="Elegant lounge area with warm lighting" className="h-64 w-full rounded-xl object-cover shadow-elegant mt-8" />
         </div>
       </div>
     </section>

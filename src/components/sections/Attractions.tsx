@@ -3,12 +3,14 @@ import a1 from "@/assets/kingsukh/attractions/ajodhya-hills.jpg";
 import a2 from "@/assets/kingsukh/attractions/bamni-falls.jpg";
 import a3 from "@/assets/kingsukh/attractions/joychandi-pahar.jpg";
 import a4 from "@/assets/kingsukh/attractions/charida-masks.jpg";
+import a5 from "/mithonDam.webp";
 
 const spots = [
   { img: a1, title: "Ajodhya Hills", caption: "Scenic hills, ideal for day trips and sunsets." },
   { img: a2, title: "Bamni Falls", caption: "Refreshing cascades amid lush greenery." },
   { img: a3, title: "Joychandi Pahar", caption: "Iconic hill with panoramic views." },
   { img: a4, title: "Charida Masks", caption: "Home of colorful traditional Chhau masks." },
+  { img: a5, title: "Mithon Dam", caption: "Just flow with the water." },
 ];
 
 const Attractions = () => {

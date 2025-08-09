@@ -1,8 +1,11 @@
-import g1 from "@/assets/kingsukh/gallery/amenities.jpg";
-import g2 from "@/assets/kingsukh/gallery/garden.jpg";
-import g3 from "@/assets/kingsukh/gallery/lounge.jpg";
-import g4 from "@/assets/kingsukh/gallery/exterior-night.jpg";
+import g1 from "/flower.jpg";
+import g2 from "/header.jpg";
+import g3 from "/palash.webp";
+import g4 from "/out.jpg";
 import g5 from "@/assets/kingsukh/gallery/breakfast.jpg";
+import g6 from "/1.jpg";
+import g7 from "/ayodhya.webp";
+import g8 from "/large.jpg";
 
 const images = [
   { src: g2, alt: "Serene garden path with greenery" },
@@ -10,6 +13,9 @@ const images = [
   { src: g1, alt: "Premium amenities close-up" },
   { src: g4, alt: "Guest house exterior at night" },
   { src: g5, alt: "Elegant breakfast spread" },
+  { src: g6, alt: "round roads" },
+  { src: g7, alt: "round roads" },
+  { src: g8, alt: "round roads" },
 ];
 
 const Gallery = () => {

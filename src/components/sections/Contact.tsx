@@ -3,7 +3,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "@/hooks/use-toast";
 
-const WHATSAPP_NUMBER: string | null = null; // TODO: set official number when available
 
 const Contact = () => {
   const onSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
@@ -12,9 +11,6 @@ const Contact = () => {
     (e.currentTarget as HTMLFormElement).reset();
   };
 
-  const waLink = WHATSAPP_NUMBER
-    ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("I'd like to book a room at Kingsukh Guest House")}`
-    : `https://wa.me/?text=${encodeURIComponent("I'd like to book a room at Kingsukh Guest House")}`;
 
   return (
     <section id="contact" className="py-20">
@@ -52,7 +48,7 @@ const Contact = () => {
             <div className="flex flex-wrap gap-3 pt-2">
               <Button type="submit" variant="hero">Send Message</Button>
               <Button asChild variant="gold">
-                <a href={waLink} rel="noopener noreferrer" target="_blank">WhatsApp Booking</a>
+                <a href="https://api.whatsapp.com/send?phone=919007062180" rel="noopener noreferrer" target="_blank">WhatsApp Booking</a>
               </Button>
             </div>
           </form>

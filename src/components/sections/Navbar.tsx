@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-3">
           <Button asChild variant="hero" size="sm">
-            <a href="#contact" aria-label="Book your stay">Book Now</a>
+            <a href="https://api.whatsapp.com/send?phone=919007062180" aria-label="Book your stay">Book Now</a>
           </Button>
         </div>
       </nav>

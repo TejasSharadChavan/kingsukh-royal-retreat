@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="relative min-h-[80vh] w-full overflow-hidden">
       <img
-        src={heroImg}
+        src="/ayodhya.webp"
         alt="Kingsukh Guest House exterior at golden hour with lush garden"
         className="absolute inset-0 h-full w-full object-cover"
       />
@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="font-display text-4xl leading-tight md:text-6xl max-w-3xl">
           Experience Luxury & Comfort at Kingsukh Guest House
         </h1>
-        <p className="max-w-2xl text-lg text-muted-foreground">
+        <p className="max-w-2xl text-lg font-display">
           A boutique stay blending royal elegance with warm hospitality. Wake up to serene gardens, premium rooms, and the charm of Purulia’s attractions.
         </p>
         <div className="flex flex-wrap gap-4">
